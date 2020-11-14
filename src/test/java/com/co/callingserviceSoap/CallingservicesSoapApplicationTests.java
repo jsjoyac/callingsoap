@@ -39,15 +39,15 @@ class CallingservicesSoapApplicationTests {
 		marshaller.afterPropertiesSet();
 	}
 	
-	@Test
-	void contextLoads() {
-		
-		Afiliado request = new Afiliado();
-		request.setDIdentificacion("39546050"); 
-		AfiliadoResponse response = (AfiliadoResponse) client.
-				callWebServices(clientEndPoint, request);
-		assertEquals(true, response.getAfiliadoResult().length()>0);
-		
-	}
+//	@Test
+//	void contextLoads() {
+//		
+//		Afiliado request = new Afiliado();
+//		request.setDIdentificacion("39546050"); 
+//		AfiliadoResponse response = (AfiliadoResponse) client.
+//				callWebServices(clientEndPoint, request);
+//		assertEquals(true, response.getAfiliadoResult().length()>0);
+//		
+//	}
 
 }
