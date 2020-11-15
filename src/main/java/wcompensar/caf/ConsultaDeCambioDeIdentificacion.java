@@ -38,8 +38,8 @@ import javax.xml.bind.annotation.XmlType;
 public class ConsultaDeCambioDeIdentificacion {
 
     protected String sApl;
-    protected String dIdentificacion;
-    protected Integer iTipo;
+    protected double dIdentificacion;
+    protected int iTipo;
 
     /**
      * Gets the value of the sApl property.
@@ -69,7 +69,7 @@ public class ConsultaDeCambioDeIdentificacion {
      * Gets the value of the dIdentificacion property.
      * 
      */
-    public String getDIdentificacion() {
+    public double getDIdentificacion() {
         return dIdentificacion;
     }
 
@@ -77,7 +77,7 @@ public class ConsultaDeCambioDeIdentificacion {
      * Sets the value of the dIdentificacion property.
      * 
      */
-    public void setDIdentificacion(String value) {
+    public void setDIdentificacion(double value) {
         this.dIdentificacion = value;
     }
 
@@ -85,7 +85,7 @@ public class ConsultaDeCambioDeIdentificacion {
      * Gets the value of the iTipo property.
      * 
      */
-    public Integer getITipo() {
+    public int getITipo() {
         return iTipo;
     }
 
@@ -93,7 +93,7 @@ public class ConsultaDeCambioDeIdentificacion {
      * Sets the value of the iTipo property.
      * 
      */
-    public void setITipo(Integer value) {
+    public void setITipo(int value) {
         this.iTipo = value;
     }
 
