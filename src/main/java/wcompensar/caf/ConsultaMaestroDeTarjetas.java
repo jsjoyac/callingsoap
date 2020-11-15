@@ -40,9 +40,9 @@ import javax.xml.bind.annotation.XmlType;
 public class ConsultaMaestroDeTarjetas {
 
     protected String sApl;
-    protected double dIdentificacion;
-    protected int iTipo;
-    protected int iOpc;
+    protected String dIdentificacion;
+    protected Integer iTipo;
+    protected Integer iOpc;
 
     /**
      * Gets the value of the sApl property.
@@ -72,7 +72,7 @@ public class ConsultaMaestroDeTarjetas {
      * Gets the value of the dIdentificacion property.
      * 
      */
-    public double getDIdentificacion() {
+    public String getDIdentificacion() {
         return dIdentificacion;
     }
 
@@ -80,7 +80,7 @@ public class ConsultaMaestroDeTarjetas {
      * Sets the value of the dIdentificacion property.
      * 
      */
-    public void setDIdentificacion(double value) {
+    public void setDIdentificacion(String value) {
         this.dIdentificacion = value;
     }
 
@@ -88,7 +88,7 @@ public class ConsultaMaestroDeTarjetas {
      * Gets the value of the iTipo property.
      * 
      */
-    public int getITipo() {
+    public Integer getITipo() {
         return iTipo;
     }
 
@@ -96,7 +96,7 @@ public class ConsultaMaestroDeTarjetas {
      * Sets the value of the iTipo property.
      * 
      */
-    public void setITipo(int value) {
+    public void setITipo(Integer value) {
         this.iTipo = value;
     }
 
@@ -104,7 +104,7 @@ public class ConsultaMaestroDeTarjetas {
      * Gets the value of the iOpc property.
      * 
      */
-    public int getIOpc() {
+    public Integer getIOpc() {
         return iOpc;
     }
 
@@ -112,7 +112,7 @@ public class ConsultaMaestroDeTarjetas {
      * Sets the value of the iOpc property.
      * 
      */
-    public void setIOpc(int value) {
+    public void setIOpc(Integer value) {
         this.iOpc = value;
     }
 

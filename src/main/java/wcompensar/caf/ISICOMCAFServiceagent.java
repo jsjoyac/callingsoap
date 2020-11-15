@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "ISICOM-CAF.serviceagent", targetNamespace = "http://WCompensar/CAF", wsdlLocation = "http://ec2-13-59-88-228.us-east-2.compute.amazonaws.com:8080/castlemock/mock/soap/project/KotyYd/CAFSoapEndpoint?WSDL")
+@WebServiceClient(name = "ISICOM-CAF.serviceagent", targetNamespace = "http://WCompensar/CAF", wsdlLocation = "http://ec2-18-188-66-129.us-east-2.compute.amazonaws.com:8080/castlemock/mock/soap/project/tFKvnj/CAFSoapEndpoint?WSDL")
 public class ISICOMCAFServiceagent
     extends Service
 {
@@ -30,7 +30,7 @@ public class ISICOMCAFServiceagent
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://ec2-13-59-88-228.us-east-2.compute.amazonaws.com:8080/castlemock/mock/soap/project/KotyYd/CAFSoapEndpoint?WSDL");
+            url = new URL("http://ec2-18-188-66-129.us-east-2.compute.amazonaws.com:8080/castlemock/mock/soap/project/tFKvnj/CAFSoapEndpoint?WSDL");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
